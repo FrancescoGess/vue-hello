@@ -3,7 +3,11 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        message: 'Hello Vue!'
+        message: 'Hello Vue!',
+        img: './img/fumetti.jpg'
       }
-    }
-  }).mount('#app')
+    }, 
+    
+  }).mount('#app'), ('#fumettoImg')
+
+  
