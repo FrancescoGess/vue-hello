@@ -10,10 +10,10 @@
 <body>
     
     <h1 id="app">{{ message }}
-
-        <div id="#fumettoImg">
-          <img src="./img/fumetti.jpg" v-img="imgFumetti"alt="image"/>
-        </div>
+        
+            <div id="fumettoImg">
+                <img :src="require('@./img/fumetti.jpg')"/>
+            </div>
         
     </h1>
     

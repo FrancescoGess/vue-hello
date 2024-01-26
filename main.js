@@ -4,9 +4,8 @@ const { createApp } = Vue
     data() {
       return {
         message: 'Hello Vue!',
-        img: './img/fumetti.jpg'
       }
-    }, 
+    }, export default
     
   }).mount('#app'), ('#fumettoImg')
 
